@@ -1,0 +1,27 @@
+<template name="46727cfe">
+  <view class="_div data-v-5fdb6032">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="height:200px" class="_swiper data-v-5fdb6032">
+      <block wx:key="item" key="{{item}}" wx:for="{{imgUrls}}" wx:for-index="index" wx:for-item="item">
+        <swiper-item class="_swiper-item data-v-5fdb6032">
+          <image src="{{item}}" style="width:100%;" class="_image data-v-5fdb6032"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+    <i-grid i-class="no-border" class="_i-grid data-v-5fdb6032">
+      <i-grid-item bindtap="handleProxy" wx:key="grid" key="{{grid}}" i-class="no-border" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}" wx:for="{{grids}}" wx:for-index="index" wx:for-item="grid" class="_i-grid-item data-v-5fdb6032">
+        <i-grid-icon class="_i-grid-icon data-v-5fdb6032">
+          <image src="{{grid.image}}" class="_image data-v-5fdb6032"></image>
+        </i-grid-icon>
+        <i-grid-label class="_i-grid-label data-v-5fdb6032">{{grid.title}}</i-grid-label>
+      </i-grid-item>
+    </i-grid>
+    <i-panel title="{{title_name}}" class="_i-panel data-v-5fdb6032">
+      <view style="padding: 15px;" class="_view data-v-5fdb6032">
+        <i-card wx:key="item" key="{{item}}" i-class="split" title="{{item.name}}" extra="{{item.actor}}" thumb="{{item.image}}" wx:for="{{top}}" wx:for-index="index" wx:for-item="item" class="_i-card data-v-5fdb6032">
+          <view slot="content" class="_view data-v-5fdb6032">{{item.content}}</view>
+          <view slot="footer" class="_view data-v-5fdb6032">{{item.remark}}</view>
+        </i-card>
+      </view>
+    </i-panel>
+  </view>
+</template>

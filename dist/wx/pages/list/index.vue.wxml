@@ -1,0 +1,8 @@
+<template name="cc7d7064">
+  <view class="_div data-v-51f5947f">
+    <i-card wx:key="item" key="{{item}}" i-class="split" title="{{item.name}}" extra="{{item.actor}}" thumb="{{item.image}}" wx:for="{{list}}" wx:for-index="index" wx:for-item="item" class="_i-card data-v-51f5947f">
+      <view slot="content" class="_view data-v-51f5947f">{{item.content}}</view>
+      <view slot="footer" class="_view data-v-51f5947f">{{item.remark}}</view>
+    </i-card>
+  </view>
+</template>

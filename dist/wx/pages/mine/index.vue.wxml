@@ -1,0 +1,10 @@
+<template name="c87f457a">
+  <view class="_div data-v-53f4a9f4">
+    <view class="_view data-v-53f4a9f4 userinfo">
+      <view class="_view data-v-53f4a9f4 userinfo-avatar">
+        <open-data type="userAvatarUrl" class="_open-data data-v-53f4a9f4"></open-data>
+      </view>
+      <open-data type="userNickName" class="_open-data data-v-53f4a9f4"></open-data>
+    </view>
+  </view>
+</template>
