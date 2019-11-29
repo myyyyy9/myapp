@@ -1,8 +1,8 @@
 <template>
   <div>
-    <i-card v-for="item in list" :key="item" i-class="split" :title="item.name"  :extra="item.actor" :thumb="item.image">
+    <i-card v-for="item in list" :key="item" i-class="split" :title="item.name"  :extra="item.rate" :thumb="item.image">
        <view slot="content">{{item.content}}</view>
-       <view slot="footer">{{item.remark}}</view>
+       <view slot="footer">{{item.actor}}</view>
     </i-card>
   </div>
 </template>

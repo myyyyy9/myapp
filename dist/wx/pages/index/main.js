@@ -8,15 +8,14 @@ global.webpackJsonpMpvue([4],[
 /* 4 */,
 /* 5 */,
 /* 6 */,
-/* 7 */,
-/* 8 */
+/* 7 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index__ = __webpack_require__(8);
 
 
 
@@ -31,7 +30,7 @@ var app = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a(__WEBPACK_IMPORTED_MOD
 app.$mount();
 
 /***/ }),
-/* 9 */
+/* 8 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -40,7 +39,7 @@ app.$mount();
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(10)
+  __webpack_require__(9)
 }
 var normalizeComponent = __webpack_require__(1)
 /* script */
@@ -84,17 +83,17 @@ if (false) {(function () {
 
 
 /***/ }),
-/* 10 */
+/* 9 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
+/* 10 */,
 /* 11 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-//
 //
 //
 //
@@ -138,7 +137,7 @@ if (false) {(function () {
     return {
       title_name: "推荐",
       grids: [{ title: "热门", image: "/static/images/1.png" }, { title: "排行榜", image: "/static/images/2.png" }, { title: "收藏", image: "/static/images/3.png" }],
-      top: [{ name: "电影名", actor: "主演", image: "https://i.loli.net/2017/08/21/599a521472424.jpg", remark: "评价", content: "内容" }, { name: "电影名", actor: "主演", image: "https://i.loli.net/2017/08/21/599a521472424.jpg", remark: "评价", content: "内容" }, { name: "电影名", actor: "主演", image: "https://i.loli.net/2017/08/21/599a521472424.jpg", remark: "评价", content: "内容" }, { name: "电影名", actor: "主演", image: "https://i.loli.net/2017/08/21/599a521472424.jpg", remark: "评价", content: "内容" }],
+      top: [{ name: "终结者5", rate: "9.2", image: "cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/thumb_1_150_203_20150703111212683247.jpg", actor: "主演：阿诺·施瓦辛格", content: "《终结者：创世纪》" }, { name: "摩登时代", rate: "9.4", image: "cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/thumb_1_150_203_20181205105605151777.jpg", actor: "主演：卓别林", content: "卓别林之讽刺杰作" }, { name: "电影名", rate: "8.6", image: "https://i.loli.net/2017/08/21/599a521472424.jpg", actor: "主演", content: "内容" }, { name: "电影名", rate: "8.9", image: "https://i.loli.net/2017/08/21/599a521472424.jpg", actor: "主演", content: "内容" }],
       imgUrls: ['cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/m1.jpg', 'cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/m2.jpg', 'cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/m3.jpg'],
       indicatorDots: true,
       autoplay: true,
@@ -237,7 +236,7 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
       attrs: {
         "i-class": "split",
         "title": item.name,
-        "extra": item.actor,
+        "extra": item.rate,
         "thumb": item.image,
         "mpcomid": '5_' + index
       }
@@ -245,7 +244,7 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
       slot: "content"
     }, [_vm._v(_vm._s(item.content))]), _vm._v(" "), _c('view', {
       slot: "footer"
-    }, [_vm._v(_vm._s(item.remark))])])
+    }, [_vm._v(_vm._s(item.actor))])])
   }))])], 1)
 }
 var staticRenderFns = []
@@ -260,4 +259,4 @@ if (false) {
 }
 
 /***/ })
-],[8]);
+],[7]);

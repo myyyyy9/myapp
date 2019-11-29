@@ -17,9 +17,9 @@
     </i-grid>
     <i-panel title="{{title_name}}" class="_i-panel data-v-5fdb6032">
       <view style="padding: 15px;" class="_view data-v-5fdb6032">
-        <i-card wx:key="item" key="{{item}}" i-class="split" title="{{item.name}}" extra="{{item.actor}}" thumb="{{item.image}}" wx:for="{{top}}" wx:for-index="index" wx:for-item="item" class="_i-card data-v-5fdb6032">
+        <i-card wx:key="item" key="{{item}}" i-class="split" title="{{item.name}}" extra="{{item.rate}}" thumb="{{item.image}}" wx:for="{{top}}" wx:for-index="index" wx:for-item="item" class="_i-card data-v-5fdb6032">
           <view slot="content" class="_view data-v-5fdb6032">{{item.content}}</view>
-          <view slot="footer" class="_view data-v-5fdb6032">{{item.remark}}</view>
+          <view slot="footer" class="_view data-v-5fdb6032">{{item.actor}}</view>
         </i-card>
       </view>
     </i-panel>

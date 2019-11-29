@@ -149,19 +149,19 @@ webpackContext.id = 17;
 /* 18 */
 /***/ (function(module, exports) {
 
-module.exports = [{"name":"排行榜1","actor":"主演1","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"评价1","content":"内容1"},{"name":"排行榜2","actor":"主演2","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"评价2","content":"内容2"},{"name":"排行榜3","actor":"主演3","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"评价3","content":"内容3"},{"name":"排行榜4","actor":"主演4","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"评价4","content":"内容4"}]
+module.exports = [{"name":"排行榜1","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容1"},{"name":"排行榜2","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容2"},{"name":"排行榜3","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容3"},{"name":"排行榜4","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容4"}]
 
 /***/ }),
 /* 19 */
 /***/ (function(module, exports) {
 
-module.exports = [{"name":"收藏1","actor":"主演1","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"评价1","content":"内容1"},{"name":"收藏2","actor":"主演2","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"评价2","content":"内容2"},{"name":"收藏3","actor":"主演3","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"评价3","content":"内容3"},{"name":"收藏4","actor":"主演4","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"评价4","content":"内容4"}]
+module.exports = [{"name":"收藏1","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容1"},{"name":"收藏2","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容2"},{"name":"收藏3","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容3"},{"name":"收藏4","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容4"}]
 
 /***/ }),
 /* 20 */
 /***/ (function(module, exports) {
 
-module.exports = [{"name":"热门1","actor":"主演1","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"评价1","content":"内容1"},{"name":"热门2","actor":"主演2","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"评价2","content":"内容2"},{"name":"热门3","actor":"主演3","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"评价3","content":"内容3"},{"name":"热门4","actor":"主演4","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"评价4","content":"内容4"}]
+module.exports = [{"name":"热门1","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容1"},{"name":"热门2","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容2"},{"name":"热门3","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容3"},{"name":"热门4","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容4"}]
 
 /***/ }),
 /* 21 */
@@ -175,7 +175,7 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
       attrs: {
         "i-class": "split",
         "title": item.name,
-        "extra": item.actor,
+        "extra": item.rate,
         "thumb": item.image,
         "mpcomid": '0_' + index
       }
@@ -183,7 +183,7 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
       slot: "content"
     }, [_vm._v(_vm._s(item.content))]), _vm._v(" "), _c('view', {
       slot: "footer"
-    }, [_vm._v(_vm._s(item.remark))])])
+    }, [_vm._v(_vm._s(item.actor))])])
   }))
 }
 var staticRenderFns = []
