@@ -130,6 +130,8 @@ if (false) {(function () {
 //
 //
 //
+//
+//
 
 /* harmony default export */ __webpack_exports__["a"] = ({
   data: function data() {
@@ -137,7 +139,7 @@ if (false) {(function () {
       title_name: "推荐",
       grids: [{ title: "热门", image: "/static/images/1.png" }, { title: "排行榜", image: "/static/images/2.png" }, { title: "收藏", image: "/static/images/3.png" }],
       top: [{ name: "电影名", actor: "主演", image: "https://i.loli.net/2017/08/21/599a521472424.jpg", remark: "评价", content: "内容" }, { name: "电影名", actor: "主演", image: "https://i.loli.net/2017/08/21/599a521472424.jpg", remark: "评价", content: "内容" }, { name: "电影名", actor: "主演", image: "https://i.loli.net/2017/08/21/599a521472424.jpg", remark: "评价", content: "内容" }, { name: "电影名", actor: "主演", image: "https://i.loli.net/2017/08/21/599a521472424.jpg", remark: "评价", content: "内容" }],
-      imgUrls: ['http://www.canyin88.com/uploads/image/2019/04/16/1555378220872933.jpg', 'http://www.canyin88.com/uploads/image/2019/04/15/1555321255843942.jpg', 'http://www.canyin88.com/uploads/190415/99ad8154e7332ca96ccb323580b3b8a2_3.jpg'],
+      imgUrls: ['cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/m1.jpg', 'cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/m2.jpg', 'cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/m3.jpg'],
       indicatorDots: true,
       autoplay: true,
       interval: 5000,
@@ -165,7 +167,7 @@ if (false) {(function () {
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', [_c('swiper', {
     staticStyle: {
-      "height": "200px"
+      "height": "250px"
     },
     attrs: {
       "indicator-dots": _vm.indicatorDots,
@@ -182,7 +184,8 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
       }
     }, [_c('image', {
       staticStyle: {
-        "width": "100%"
+        "width": "100%",
+        "height": "100%"
       },
       attrs: {
         "src": item

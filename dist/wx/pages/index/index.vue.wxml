@@ -1,9 +1,9 @@
-<template name="46727cfe">
+<template name="77fac250">
   <view class="_div data-v-5fdb6032">
-    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="height:200px" class="_swiper data-v-5fdb6032">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="height:250px" class="_swiper data-v-5fdb6032">
       <block wx:key="item" key="{{item}}" wx:for="{{imgUrls}}" wx:for-index="index" wx:for-item="item">
         <swiper-item class="_swiper-item data-v-5fdb6032">
-          <image src="{{item}}" style="width:100%;" class="_image data-v-5fdb6032"></image>
+          <image src="{{item}}" style="width:100%;height:100%" class="_image data-v-5fdb6032"></image>
         </swiper-item>
       </block>
     </swiper>

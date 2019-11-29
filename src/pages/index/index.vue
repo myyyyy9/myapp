@@ -5,11 +5,11 @@
       :autoplay="autoplay"
       :interval="interval"
       :duration="duration"
-      style="height:200px"
+      style="height:250px"
     >
     <block v-for="item in imgUrls" :key="item">
       <swiper-item>
-        <image :src="item" style="width:100%;"/>
+        <image   :src="item" style="width:100%;height:100%"/>
       </swiper-item>
     </block>
   </swiper>
@@ -30,7 +30,8 @@
     </i-card>
     
   </view>
-</i-panel>
+  
+
   </div>
 </template>
 
@@ -52,9 +53,9 @@ export default {
 
       ],
         imgUrls: [
-        'http://www.canyin88.com/uploads/image/2019/04/16/1555378220872933.jpg',
-        'http://www.canyin88.com/uploads/image/2019/04/15/1555321255843942.jpg',
-        'http://www.canyin88.com/uploads/190415/99ad8154e7332ca96ccb323580b3b8a2_3.jpg'
+        'cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/m1.jpg',
+        'cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/m2.jpg',
+        'cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/m3.jpg'
       ],
       indicatorDots: true,
       autoplay: true,
@@ -80,11 +81,14 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped >
 div >>> .no-border {
   border-width: 0pt;
 }
 div >>> .split {
   margin-bottom: 10pt;
 }
+
+ 
+
 </style>
