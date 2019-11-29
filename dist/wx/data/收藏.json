@@ -1,8 +1,8 @@
 [
-    {"name":"收藏1","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容1"},
-    {"name":"收藏2","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容2"},
-    {"name":"收藏3","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容3"},
-    {"name":"收藏4","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容4"}
+    {"name":"JOKER","rate":"9.2","image":"cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/958da663aaf5781c34cf55a31a9a2830.jpg","actor":"主演：杰昆·菲尼克斯","content":"蝙蝠侠的宿敌“小丑”"},
+    {"name":"狮子王","rate":"9.3","image":"cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/RHKBd.jpg","actor":"主演：唐纳德·格洛弗","content":"成为森林之王"},
+    {"name":"人间·喜剧","rate":"8.5","image":"cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/e59b450c339e860d963df81be0c1c928.jpg","actor":"主演：艾伦","content":"时代狂人"},
+    {"name":"新封神之姜子牙 ","rate":"8.6","image":"cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/11825adef82e4a3b0c66ce22906f3810.jpg","actor":"主演：陈浩民 ","content":"为天下之事倾尽一生"}
 
 
 ]

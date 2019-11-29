@@ -149,19 +149,19 @@ webpackContext.id = 17;
 /* 18 */
 /***/ (function(module, exports) {
 
-module.exports = [{"name":"排行榜1","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容1"},{"name":"排行榜2","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容2"},{"name":"排行榜3","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容3"},{"name":"排行榜4","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容4"}]
+module.exports = [{"name":"少年的你","rate":"8.9","image":"cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/ead6e3c88b2d3848a9515931ac032176.jpg","actor":"主演：周冬雨、易烊千玺","content":"校园霸凌"},{"name":"罗小黑战记 ","rate":"8.5","image":"cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/57d8339a81d5045ba5f35643921badb8.jpg","actor":"主演：山新","content":"究竟何处才是真正的归属"},{"name":"扫毒2","rate":"8.5","image":"cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/eab94947790c554b44a91f820efa68c0.jpg","actor":"主演：刘德华、古天乐","content":"一场天地对决一触即发"},{"name":"X战警：黑凤凰","rate":"9.3","image":"cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/4773e1e4015b223cf6cff2b0069f2b32.jpg","actor":"主演：苏菲·特纳","content":"黑凤凰"}]
 
 /***/ }),
 /* 19 */
 /***/ (function(module, exports) {
 
-module.exports = [{"name":"收藏1","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容1"},{"name":"收藏2","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容2"},{"name":"收藏3","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容3"},{"name":"收藏4","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容4"}]
+module.exports = [{"name":"JOKER","rate":"9.2","image":"cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/958da663aaf5781c34cf55a31a9a2830.jpg","actor":"主演：杰昆·菲尼克斯","content":"蝙蝠侠的宿敌“小丑”"},{"name":"狮子王","rate":"9.3","image":"cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/RHKBd.jpg","actor":"主演：唐纳德·格洛弗","content":"成为森林之王"},{"name":"人间·喜剧","rate":"8.5","image":"cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/e59b450c339e860d963df81be0c1c928.jpg","actor":"主演：艾伦","content":"时代狂人"},{"name":"新封神之姜子牙 ","rate":"8.6","image":"cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/11825adef82e4a3b0c66ce22906f3810.jpg","actor":"主演：陈浩民 ","content":"为天下之事倾尽一生"}]
 
 /***/ }),
 /* 20 */
 /***/ (function(module, exports) {
 
-module.exports = [{"name":"热门1","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容1"},{"name":"热门2","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容2"},{"name":"热门3","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容3"},{"name":"热门4","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容4"}]
+module.exports = [{"name":"攀登者","rate":"9.1","image":"cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/d6f1b4c734b5eb8b0dcf6546ebad7830.jpg","actor":"主演：吴京","content":"生与死的挑战"},{"name":"JOKER","rate":"9.2","image":"cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/958da663aaf5781c34cf55a31a9a2830.jpg","actor":"主演：杰昆·菲尼克斯","content":"蝙蝠侠的宿敌“小丑”"},{"name":"哪吒之魔童降世","rate":"9.5","image":"cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/a3a7554ee99d95153ea400096b09b012.jpg","actor":"主演：吕艳婷","content":"哪吒降世"},{"name":"蜘蛛侠：英雄归来2","rate":"9.0","image":"cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/68d020cebe1b9aabba88a754a36fe1fb.jpg","actor":"主演：汤姆·赫兰德","content":"蜘蛛侠：决战千里"}]
 
 /***/ }),
 /* 21 */

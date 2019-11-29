@@ -48,14 +48,15 @@ export default {
       top:[
         {name:"终结者5",rate:"9.2",image:"cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/thumb_1_150_203_20150703111212683247.jpg",actor:"主演：阿诺·施瓦辛格",content:"《终结者：创世纪》"},
         {name:"摩登时代",rate:"9.4",image:"cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/thumb_1_150_203_20181205105605151777.jpg",actor:"主演：卓别林",content:"卓别林之讽刺杰作"},
-        {name:"电影名",rate:"8.6",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",actor:"主演",content:"内容"},
-        {name:"电影名",rate:"8.9",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",actor:"主演",content:"内容"},
+        {name:"好莱坞往事",rate:"8.6",image:"cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/4a3be023078f370aa3a142856f9ebd95.jpg",actor:"主演：莱昂纳多·迪卡普里奥",content:"好莱坞杀人事件"},
+        {name:"一出好戏",rate:"8.9",image:"cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/1.jpg",actor:"主演：黄渤",content:"黄渤张艺兴荒岛求生"},
 
       ],
         imgUrls: [
-        'cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/m1.jpg',
+        'cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/d6f1b4c734b5eb8b0dcf6546ebad7830.jpg',
         'cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/m2.jpg',
-        'cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/m3.jpg'
+        'cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/m3.jpg',
+        'cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/ead6e3c88b2d3848a9515931ac032176.jpg'
       ],
       indicatorDots: true,
       autoplay: true,

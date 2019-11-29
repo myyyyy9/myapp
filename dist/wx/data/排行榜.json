@@ -1,8 +1,8 @@
 [
-    {"name":"排行榜1","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容1"},
-    {"name":"排行榜2","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容2"},
-    {"name":"排行榜3","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容3"},
-    {"name":"排行榜4","rate":"评分","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","actor":"主演","content":"内容4"}
+    {"name":"少年的你","rate":"8.9","image":"cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/ead6e3c88b2d3848a9515931ac032176.jpg","actor":"主演：周冬雨、易烊千玺","content":"校园霸凌"},
+    {"name":"罗小黑战记 ","rate":"8.5","image":"cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/57d8339a81d5045ba5f35643921badb8.jpg","actor":"主演：山新","content":"究竟何处才是真正的归属"},
+    {"name":"扫毒2","rate":"8.5","image":"cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/eab94947790c554b44a91f820efa68c0.jpg","actor":"主演：刘德华、古天乐","content":"一场天地对决一触即发"},
+    {"name":"X战警：黑凤凰","rate":"9.3","image":"cloud://myapp-0c4c38.6d79-myapp-0c4c38/movie/4773e1e4015b223cf6cff2b0069f2b32.jpg","actor":"主演：苏菲·特纳","content":"黑凤凰"}
 
 
 ]
