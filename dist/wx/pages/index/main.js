@@ -1,22 +1,15 @@
 require("../../common/manifest.js")
 require("../../common/vendor.js")
-global.webpackJsonpMpvue([4],[
-/* 0 */,
-/* 1 */,
-/* 2 */,
-/* 3 */,
-/* 4 */,
-/* 5 */,
-/* 6 */,
-/* 7 */,
-/* 8 */
+global.webpackJsonpMpvue([4],{
+
+/***/ 13:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index__ = __webpack_require__(14);
 
 
 
@@ -31,16 +24,17 @@ var app = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a(__WEBPACK_IMPORTED_MOD
 app.$mount();
 
 /***/ }),
-/* 9 */
+
+/***/ 14:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_mpvue_loader_lib_selector_type_script_index_0_index_vue__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_mpvue_loader_lib_template_compiler_index_id_data_v_5fdb6032_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_fileExt_template_wxml_script_js_style_wxss_platform_wx_node_modules_mpvue_loader_lib_selector_type_template_index_0_index_vue__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_mpvue_loader_lib_selector_type_script_index_0_index_vue__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_mpvue_loader_lib_template_compiler_index_id_data_v_5fdb6032_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_fileExt_template_wxml_script_js_style_wxss_platform_wx_node_modules_mpvue_loader_lib_selector_type_template_index_0_index_vue__ = __webpack_require__(31);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(10)
+  __webpack_require__(15)
 }
 var normalizeComponent = __webpack_require__(1)
 /* script */
@@ -84,16 +78,21 @@ if (false) {(function () {
 
 
 /***/ }),
-/* 10 */
+
+/***/ 15:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 11 */
+
+/***/ 16:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_defineProperty__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_defineProperty___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_defineProperty__);
+
 //
 //
 //
@@ -132,7 +131,16 @@ if (false) {(function () {
 //
 //
 
-/* harmony default export */ __webpack_exports__["a"] = ({
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_defineProperty___default()({
+  created: function created() {
+    var _this = this;
+
+    var db = wx.cloud.database({ env: 'myapp-0c4c38' });
+    db.collection('movie').get().then(function (res) {
+      console.log(res.data);
+      _this.movies = res.data;
+    });
+  },
   data: function data() {
     return {
       title_name: "推荐",
@@ -153,13 +161,13 @@ if (false) {(function () {
       var url = '../list/main?type=' + type.title;
       global.mpvue.navigateTo({ url: url });
     }
-  },
+  }
 
-  created: function created() {}
-});
+}, 'created', function created() {}));
 
 /***/ }),
-/* 12 */
+
+/***/ 31:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -259,4 +267,5 @@ if (false) {
 }
 
 /***/ })
-],[8]);
+
+},[13]);

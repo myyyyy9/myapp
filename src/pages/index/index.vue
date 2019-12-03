@@ -37,6 +37,15 @@
 
 <script>
 export default {
+  created () {
+    const db = wx.cloud.database({ env: 'myapp-0c4c38' })
+    db.collection('movie').get().then(
+      res => {
+        console.log(res.data)
+        this.movies = res.data
+      }
+    )
+  },
   data () {
     return { 
       title_name: "推荐" ,

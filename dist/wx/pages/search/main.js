@@ -2,14 +2,14 @@ require("../../common/manifest.js")
 require("../../common/vendor.js")
 global.webpackJsonpMpvue([2],{
 
-/***/ 27:
+/***/ 46:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index__ = __webpack_require__(47);
 
 
 
@@ -18,16 +18,16 @@ app.$mount();
 
 /***/ }),
 
-/***/ 28:
+/***/ 47:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_mpvue_loader_lib_selector_type_script_index_0_index_vue__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_mpvue_loader_lib_template_compiler_index_id_data_v_550c8b89_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_fileExt_template_wxml_script_js_style_wxss_platform_wx_node_modules_mpvue_loader_lib_selector_type_template_index_0_index_vue__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_mpvue_loader_lib_selector_type_script_index_0_index_vue__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_mpvue_loader_lib_template_compiler_index_id_data_v_550c8b89_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_fileExt_template_wxml_script_js_style_wxss_platform_wx_node_modules_mpvue_loader_lib_selector_type_template_index_0_index_vue__ = __webpack_require__(51);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(29)
+  __webpack_require__(48)
 }
 var normalizeComponent = __webpack_require__(1)
 /* script */
@@ -72,14 +72,14 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 29:
+/***/ 48:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 30:
+/***/ 50:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -89,10 +89,19 @@ if (false) {(function () {
 //
 //
 //
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["a"] = ({
   data: function data() {
-    return {};
+    return {
+      value1: ''
+
+    };
   },
 
 
@@ -103,12 +112,28 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 31:
+/***/ 51:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div')
+  return _c('div', [_c('i-panel', {
+    attrs: {
+      "title": "搜索",
+      "mpcomid": '1'
+    }
+  }, [_c('i-input', {
+    attrs: {
+      "value": _vm.value1,
+      "placeholder": "请输入电影名",
+      "mpcomid": '0'
+    }
+  })], 1), _vm._v(" "), _c('i-button', {
+    attrs: {
+      "bind:click": "handleClick",
+      "mpcomid": '2'
+    }
+  }, [_vm._v("确认")])], 1)
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -123,4 +148,4 @@ if (false) {
 
 /***/ })
 
-},[27]);
+},[46]);
