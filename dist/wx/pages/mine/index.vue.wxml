@@ -6,5 +6,13 @@
       </view>
       <open-data type="userNickName" class="_open-data data-v-53f4a9f4"></open-data>
     </view>
+    <i-panel title="我是影迷，我要推荐！！！" class="_i-panel data-v-53f4a9f4">
+      <i-input value="{{name}}" bindchange="handleProxy" title="电影名" autofocus placeholder="请输入电影名" maxlength="20" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_i-input data-v-53f4a9f4"></i-input>
+      <i-input value="{{actor}}" bindchange="handleProxy" title="主演" placeholder="请输入主演" maxlength="30" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_i-input data-v-53f4a9f4"></i-input>
+      <i-input value="{{content}}" bindchange="handleProxy" title="推荐介绍" placeholder="请输入影片内容" maxlength="50" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_i-input data-v-53f4a9f4"></i-input>
+      <i-input value="{{rate}}" bindchange="handleProxy" title="评分" placeholder="请输入影片评分" maxlength="50" data-eventid="{{'3'}}" data-comkey="{{$k}}" class="_i-input data-v-53f4a9f4"></i-input>
+    </i-panel>
+    <i-button bindtap="handleProxy" type="warning" size="default" data-eventid="{{'4'}}" data-comkey="{{$k}}" class="_i-button data-v-53f4a9f4">我要推荐</i-button>
+    <view class="_view data-v-53f4a9f4 tips">电影豆瓣专用小程序，如果你有好看的电影请安利给我！！！</view>
   </view>
 </template>
