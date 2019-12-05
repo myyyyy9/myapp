@@ -32,6 +32,7 @@
   </view>
 </i-panel>
 
+<i-load-more tip="到底啦" :loading=" false" />
   </div>
 </template>
 

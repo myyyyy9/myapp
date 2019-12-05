@@ -23,5 +23,6 @@
         </i-card>
       </view>
     </i-panel>
+    <i-load-more tip="到底啦" loading="{{ false}}" class="_i-load-more data-v-5fdb6032"></i-load-more>
   </view>
 </template>

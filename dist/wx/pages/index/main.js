@@ -130,6 +130,7 @@ if (false) {(function () {
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_defineProperty___default()({
   created: function created() {
@@ -253,7 +254,13 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
     }, [_vm._v(_vm._s(item.content))]), _vm._v(" "), _c('view', {
       slot: "footer"
     }, [_vm._v(_vm._s(item.actor))])])
-  }))])], 1)
+  }))]), _vm._v(" "), _c('i-load-more', {
+    attrs: {
+      "tip": "到底啦",
+      "loading": false,
+      "mpcomid": '7'
+    }
+  })], 1)
 }
 var staticRenderFns = []
 render._withStripped = true

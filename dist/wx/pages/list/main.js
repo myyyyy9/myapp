@@ -92,6 +92,7 @@ if (false) {(function () {
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["a"] = ({
   data: function data() {
@@ -165,7 +166,7 @@ module.exports = [{"name":"攀登者","rate":"9.1","image":"cloud://myapp-0c4c38
 
 "use strict";
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', _vm._l((_vm.list), function(item, index) {
+  return _c('div', [_vm._l((_vm.list), function(item, index) {
     return _c('i-card', {
       key: item,
       attrs: {
@@ -180,7 +181,13 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
     }, [_vm._v(_vm._s(item.content))]), _vm._v(" "), _c('view', {
       slot: "footer"
     }, [_vm._v(_vm._s(item.actor))])])
-  }))
+  }), _vm._v(" "), _c('i-load-more', {
+    attrs: {
+      "tip": "到底啦",
+      "loading": false,
+      "mpcomid": '1'
+    }
+  })], 2)
 }
 var staticRenderFns = []
 render._withStripped = true

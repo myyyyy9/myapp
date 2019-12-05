@@ -4,6 +4,7 @@
        <view slot="content">{{item.content}}</view>
        <view slot="footer">{{item.actor}}</view>
     </i-card>
+    <i-load-more tip="到底啦" :loading=" false" />
   </div>
 </template>
 
